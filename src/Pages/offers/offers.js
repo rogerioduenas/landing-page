@@ -57,7 +57,7 @@ function Offers() {
                     <h4 className="subTitle1">WI-FI Grátis</h4>
                     <p className="price">R$119,99/mês</p>
                     <button className="buy">Assine já</button>
-                    <div className="detalhes">
+                    <div className="details">
                         <h4 className="subTitle2">Internet Fibra 300 mega</h4>
                         <p className="description1">com wi-fi grátis e serviçoes digitais</p>
                         <img className="icons" src={tntsports} />
@@ -77,7 +77,7 @@ function Offers() {
                     <h4 className="subTitle1">WI-FI Grátis</h4>
                     <p className="price">R$299,99/mês</p>
                     <button className="buy">Assine já</button>
-                    <div className="detalhes">
+                    <div className="details">
                         <h4 className="subTitle2">Internet Fibra 600 mega</h4>
                         <p className="description1">com wi-fi grátis e serviçoes digitais</p>
                         <img className="icons" src={tntsports} />

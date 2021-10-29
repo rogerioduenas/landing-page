@@ -111,3 +111,6 @@ body{
     font-weight: bold;
     text-decoration: none;
 }
+.buttonReturnHome:hover{
+    background: linear-gradient(45deg, rgb(204, 8, 8),rgb(144, 6, 224));
+}

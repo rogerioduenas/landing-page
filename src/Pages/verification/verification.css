@@ -1,0 +1,54 @@
+*{
+    font-family: "Red Hat Display", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.backgroundValidation{
+    background: linear-gradient(45deg, rgb(204, 8, 8), rgb(144, 6, 224));
+    height: 100vh;
+}
+.containerForm{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    margin-top: 4%;
+    transform: translateX(-50%);
+    width: 450px;
+    background: linear-gradient(45deg,white,rgba(255, 255, 255, 0.233),rgba(255, 255, 255, 0.233), rgba(255, 255, 255, 0.233),rgba(255, 255, 255, 0.541),rgba(255, 255, 255, 0.233),rgba(255, 255, 255, 0.233),rgba(255, 255, 255, 0.233), rgba(105, 104, 104, 0.233),white);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.479);
+}
+.titleForm{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.inputCep{
+    margin-bottom: 10px;
+    width: 150px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: black;
+    background: rgba(255, 0, 0, 0);
+}
+textarea:focus, .inputCep:focus, select:focus {
+    outline: 0;
+}
+.inputCep::placeholder {
+    color: white;
+    text-align: center;
+}
+.buttonSendCep{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background: linear-gradient(45deg, black, rgba(255, 255, 255, 0.39), rgba(0, 0, 0, 0.863));
+    font-weight: bold;
+}
+.buttonSendCep:hover{
+    background: linear-gradient(45deg, rgb(204, 8, 8), rgb(144, 6, 224));
+}
